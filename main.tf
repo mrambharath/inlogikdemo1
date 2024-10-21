@@ -22,6 +22,7 @@ resource "azurerm_resource_group" "inlogik_rg" {
   location = "East US"
 }
 
+
 #VNet Creation
 resource "azurerm_virtual_network" "inlogik_vnet" {
   name                = "inlogik_vnet"
